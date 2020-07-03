@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="8ef9c9e1-ed41-4430-836c-470631cf11d6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СУБД" category="Ref">
+				<xr:TypeId>5dd207f4-5433-47c2-b5c3-0325bf820c04</xr:TypeId>
+				<xr:ValueId>6cc0e138-c5fe-4a97-86e3-88526a58597d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СУБД" category="Manager">
+				<xr:TypeId>62169206-1120-4f1e-9358-76604ebc474b</xr:TypeId>
+				<xr:ValueId>64f8f36e-36fd-4c46-8481-e6e9232f63c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СУБД" category="List">
+				<xr:TypeId>2a370f9b-6163-42d6-8710-81cbc7d8d10a</xr:TypeId>
+				<xr:ValueId>1f73f646-65e2-4cee-b945-73f489347cbd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СУБД</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a1ac8988-4022-424e-9ad2-7bce963ce4b2">
+				<Properties>
+					<Name>MSSQLServer</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ffbf2678-997e-462f-a888-5205eeaab028">
+				<Properties>
+					<Name>OracleDatabase</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="91db2170-3333-4b37-81d9-0fa0ac887856">
+				<Properties>
+					<Name>IBMDB2</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7dbb6ef0-b032-4fa1-96cb-20288f30494b">
+				<Properties>
+					<Name>PostgreSQL</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

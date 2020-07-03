@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="ca51a08e-ae11-480c-87e3-8676fd3186ec">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыФайловДляВстроенногоРедактора" category="Ref">
+				<xr:TypeId>ead03d9b-d32d-44fc-bfda-e88056d168f2</xr:TypeId>
+				<xr:ValueId>c6bc1a48-f7ce-4438-938b-06d41ce8c029</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыФайловДляВстроенногоРедактора" category="Manager">
+				<xr:TypeId>94ba04ae-5210-4652-b2da-c3a48dd08061</xr:TypeId>
+				<xr:ValueId>620dee7b-17ac-4dfe-a1de-deab4e185c9d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыФайловДляВстроенногоРедактора" category="List">
+				<xr:TypeId>d86717e2-641f-456e-9020-7937ae61b1c3</xr:TypeId>
+				<xr:ValueId>90ab317b-1152-4f0e-84bb-52e9bca018a9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыФайловДляВстроенногоРедактора</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="319cec38-cc28-4a82-b4d3-6a3d1c945d21">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыОткрытияФайлаНаПросмотр" category="Ref">
+				<xr:TypeId>4bc80458-8eaa-4fbb-a016-d79ab7c0b125</xr:TypeId>
+				<xr:ValueId>b9d1a4d9-2b50-4f6c-9c5d-440de18ab26f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыОткрытияФайлаНаПросмотр" category="Manager">
+				<xr:TypeId>18d7b857-2855-4162-9ecc-9b226b96b39b</xr:TypeId>
+				<xr:ValueId>858984f3-51e9-470a-8f25-2e3f7245b72c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыОткрытияФайлаНаПросмотр" category="List">
+				<xr:TypeId>4527abac-d06d-4dd4-af53-6a3e3b9591b8</xr:TypeId>
+				<xr:ValueId>076c1cbb-c026-4f64-b80a-258d74c0cbaa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыОткрытияФайлаНаПросмотр</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -54,6 +54,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>TG_ПодсистемаИнтеграции</Subsystem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
 			<Role>TG_Приглашения_Чтение</Role>
 			<Role>TG_Приглашения_Изменение</Role>
 			<Role>TG_Боты_Чтение</Role>
@@ -61,14 +63,33 @@
 			<Role>TG_СоответствияСотрудниковID_Чтение</Role>
 			<Role>TG_СоответствияСотрудниковID_Изменение</Role>
 			<Role>ПолныеПрава</Role>
+			<Role>TG_ПерсональныеНастройкиУведомленийВTelegram_Чтение</Role>
+			<Role>TG_ПерсональныеНастройкиУведомленийВTelegram_Изменение</Role>
 			<CommonModule>Уведомления</CommonModule>
 			<CommonModule>TG_ОтправкаУведомленийТелеграм</CommonModule>
 			<HTTPService>TG_СервисОповещений</HTTPService>
+			<FunctionalOption>ИспользованиеТестирования</FunctionalOption>
+			<FunctionalOption>ИспользоватьЭлектронныеПодписи</FunctionalOption>
+			<FunctionalOption>ИспользоватьИнтеграциюС1СДокументооборот</FunctionalOption>
+			<Constant>ИспользованиеТестирования</Constant>
+			<Constant>ИспользоватьЭлектронныеПодписи</Constant>
+			<Constant>ИспользоватьИнтеграциюС1СДокументооборот</Constant>
+			<CommonForm>ПерсональныеНастройки</CommonForm>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>TG_Боты</Catalog>
+			<Catalog>ВнешниеПользователи</Catalog>
+			<Catalog>Проекты</Catalog>
+			<Enum>ТипБазы</Enum>
+			<Enum>СпособыСозданияЛокальнойКопииБазыОшибки</Enum>
+			<Enum>СпособыОткрытияФайлаНаПросмотр</Enum>
+			<Enum>СУБД</Enum>
+			<Enum>ДействияСФайламиПоДвойномуЩелчку</Enum>
+			<Enum>ТипыФайловДляВстроенногоРедактора</Enum>
+			<Enum>СпособыСравненияВерсийФайлов</Enum>
 			<DataProcessor>TG_ОбработкаПриглашений</DataProcessor>
 			<InformationRegister>TG_Приглашения</InformationRegister>
 			<InformationRegister>TG_СоответствияСотрудниковID</InformationRegister>
+			<InformationRegister>TG_ПерсональныеНастройкиУведомленийВTelegram</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

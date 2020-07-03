@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="0286f82b-9c7e-447e-ae5e-8d267538242d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДействияСФайламиПоДвойномуЩелчку" category="Ref">
+				<xr:TypeId>2cdb3e91-d25a-4db8-b6b6-42fa70256155</xr:TypeId>
+				<xr:ValueId>381f0f74-07f5-41c8-a3e6-d9e7a9d5f2ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДействияСФайламиПоДвойномуЩелчку" category="Manager">
+				<xr:TypeId>d47adf0f-6bcd-421f-b48f-b9523e8bea4b</xr:TypeId>
+				<xr:ValueId>28a49569-a71a-49b1-8d7f-ad390cb2ac3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДействияСФайламиПоДвойномуЩелчку" category="List">
+				<xr:TypeId>72b20d63-9c42-49a8-bc29-ccfe20cea25e</xr:TypeId>
+				<xr:ValueId>4893a6bd-e09b-49f9-866f-6f2955419b59</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДействияСФайламиПоДвойномуЩелчку</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

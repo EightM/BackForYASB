@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="6b6e26cc-2e87-4713-bd45-a95d7f08d370">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипБазы" category="Ref">
+				<xr:TypeId>dd88fef8-bfda-403c-9c0e-c7ef383b3030</xr:TypeId>
+				<xr:ValueId>1900949e-cb9b-43fc-ac4e-9d6d30c3cfc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипБазы" category="Manager">
+				<xr:TypeId>a199e8f4-37fb-4fe5-bef5-dca0e40b84cc</xr:TypeId>
+				<xr:ValueId>29477415-0218-4ab6-9aac-3466080b4e63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипБазы" category="List">
+				<xr:TypeId>b6e938a1-475b-4295-9d1e-ae2bd3bc4fd7</xr:TypeId>
+				<xr:ValueId>213fcb82-3772-4cd9-ad48-a34e17b7ef40</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипБазы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e334a8b7-7d0f-4d4d-a107-e9e13c081cb1">
+				<Properties>
+					<Name>Файловый</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="167ec4ee-0ecb-4bc1-926e-cf8af31cc7f9">
+				<Properties>
+					<Name>Серверный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
