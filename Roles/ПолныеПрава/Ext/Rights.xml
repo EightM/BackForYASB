@@ -70,13 +70,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.TG_ПодсистемаИнтеграции</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.TG_ОбработкаПриглашений</name>
 		<right>
 			<name>Use</name>

@@ -40,7 +40,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>true</UseStandardCommands>
+			<UseStandardCommands>false</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm>InformationRegister.TG_ПерсональныеНастройкиУведомленийВTelegram.Form.ФормаЗаписи</DefaultRecordForm>
 			<DefaultListForm>InformationRegister.TG_ПерсональныеНастройкиУведомленийВTelegram.Form.ФормаСписка</DefaultListForm>

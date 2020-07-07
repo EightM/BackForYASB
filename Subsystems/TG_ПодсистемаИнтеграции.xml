@@ -6,7 +6,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подсистема интеграции</v8:content>
+					<v8:content>Настройки telegram</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -23,6 +23,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.TG_СервисОповещений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.TG_СоответствияСотрудниковID</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.TG_Боты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.TG_ПерсональныеНастройкиУведомленийВTelegram</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.TG_ПерсональныеНастройкиСоставаУведомленийПоЗадачамПроцесса</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

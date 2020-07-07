@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСохранитьИЗакрыть" id="25">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.СохранитьИЗакрыть</CommandName>
+				<ExtendedTooltip name="ФормаСохранитьИЗакрытьРасширеннаяПодсказка" id="26"/>
+			</Button>
+			<Button name="ФормаСохранить" id="23">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Сохранить</CommandName>
+				<ExtendedTooltip name="ФормаСохранитьРасширеннаяПодсказка" id="24"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="ТипОбъекта" id="1">
+			<DataPath>ТипОбъекта</DataPath>
+			<ContextMenu name="ТипОбъектаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ТипОбъектаРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">ТипОбъектаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<Table name="СоставОповещений" id="4">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>СоставОповещений</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СоставОповещенийКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="СоставОповещенийКоманднаяПанель" id="6">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СоставОповещенийРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="СоставОповещенийСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>СоставОповещений</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СоставОповещенийСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="СоставОповещенийСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СоставОповещенийСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>СоставОповещений</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СоставОповещенийСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="СоставОповещенийСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СоставОповещенийУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>СоставОповещений</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СоставОповещенийУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СоставОповещенийУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="СоставОповещенийИмяРеквизита" id="17">
+					<DataPath>СоставОповещений.ИмяРеквизита</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоставОповещенийИмяРеквизитаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="СоставОповещенийИмяРеквизитаРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<CheckBoxField name="СоставОповещенийВключатьВСостав" id="20">
+					<DataPath>СоставОповещений.ВключатьВСостав</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СоставОповещенийВключатьВСоставКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="СоставОповещенийВключатьВСоставРасширеннаяПодсказка" id="22"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.TG_НастройкаСоставаУведомлений</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТипОбъекта" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.TG_ОбъектыДляНастройкиСоставаОповещений</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СоставОповещений" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состав оповещений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ИмяРеквизита" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизит</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.TG_СоставОсновныхПолейЗадачиПроцесса</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВключатьВСостав" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Включать в состав оповещений</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сохранить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сохранить</Action>
+		</Command>
+		<Command name="СохранитьИЗакрыть" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить и закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить и закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьИЗакрыть</Action>
+		</Command>
+	</Commands>
+</Form>

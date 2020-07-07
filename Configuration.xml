@@ -54,6 +54,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>TG_ПодсистемаИнтеграции</Subsystem>
+			<Subsystem>Органайзер</Subsystem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
 			<Role>TG_Приглашения_Чтение</Role>
@@ -65,6 +66,8 @@
 			<Role>ПолныеПрава</Role>
 			<Role>TG_ПерсональныеНастройкиУведомленийВTelegram_Чтение</Role>
 			<Role>TG_ПерсональныеНастройкиУведомленийВTelegram_Изменение</Role>
+			<Role>TG_ПерсональныеНастройкиСоставаУведомленийПоЗадачамПроцесса_Чтение</Role>
+			<Role>TG_ПерсональныеНастройкиСоставаУведомленийПоЗадачамПроцесса_Изменение</Role>
 			<CommonModule>Уведомления</CommonModule>
 			<CommonModule>TG_ОтправкаУведомленийТелеграм</CommonModule>
 			<HTTPService>TG_СервисОповещений</HTTPService>
@@ -86,10 +89,14 @@
 			<Enum>ДействияСФайламиПоДвойномуЩелчку</Enum>
 			<Enum>ТипыФайловДляВстроенногоРедактора</Enum>
 			<Enum>СпособыСравненияВерсийФайлов</Enum>
+			<Enum>TG_ОбъектыДляНастройкиСоставаОповещений</Enum>
+			<Enum>TG_СоставОсновныхПолейЗадачиПроцесса</Enum>
 			<DataProcessor>TG_ОбработкаПриглашений</DataProcessor>
+			<DataProcessor>TG_НастройкаСоставаУведомлений</DataProcessor>
 			<InformationRegister>TG_Приглашения</InformationRegister>
 			<InformationRegister>TG_СоответствияСотрудниковID</InformationRegister>
 			<InformationRegister>TG_ПерсональныеНастройкиУведомленийВTelegram</InformationRegister>
+			<InformationRegister>TG_ПерсональныеНастройкиСоставаУведомленийПоЗадачамПроцесса</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
