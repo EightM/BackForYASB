@@ -16,12 +16,12 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обработка приглашений</v8:content>
+					<v8:content>Приглашения</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.TG_ОбработкаПриглашений.Form.Форма</DefaultForm>
+			<DefaultForm>DataProcessor.TG_ОбработкаПриглашений.Form.ФормаСамостоятельноеПриглашение</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
@@ -168,6 +168,7 @@
 			</TabularSection>
 			<Form>Форма</Form>
 			<Form>НовоеПриглашение</Form>
+			<Form>ФормаСамостоятельноеПриглашение</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
