@@ -71,10 +71,8 @@
 			<CommonModule>Уведомления</CommonModule>
 			<CommonModule>TG_ОтправкаУведомленийТелеграм</CommonModule>
 			<HTTPService>TG_СервисОповещений</HTTPService>
-			<FunctionalOption>ИспользованиеТестирования</FunctionalOption>
 			<FunctionalOption>ИспользоватьЭлектронныеПодписи</FunctionalOption>
 			<FunctionalOption>ИспользоватьИнтеграциюС1СДокументооборот</FunctionalOption>
-			<Constant>ИспользованиеТестирования</Constant>
 			<Constant>ИспользоватьЭлектронныеПодписи</Constant>
 			<Constant>ИспользоватьИнтеграциюС1СДокументооборот</Constant>
 			<CommonForm>ПерсональныеНастройки</CommonForm>
@@ -91,12 +89,14 @@
 			<Enum>СпособыСравненияВерсийФайлов</Enum>
 			<Enum>TG_ОбъектыДляНастройкиСоставаОповещений</Enum>
 			<Enum>TG_СоставОсновныхПолейЗадачиПроцесса</Enum>
+			<Enum>TG_СоставОсновныхПолейОшибки</Enum>
 			<DataProcessor>TG_ОбработкаПриглашений</DataProcessor>
 			<DataProcessor>TG_НастройкаСоставаУведомлений</DataProcessor>
 			<InformationRegister>TG_Приглашения</InformationRegister>
 			<InformationRegister>TG_СоответствияСотрудниковID</InformationRegister>
 			<InformationRegister>TG_ПерсональныеНастройкиУведомленийВTelegram</InformationRegister>
 			<InformationRegister>TG_ПерсональныеНастройкиСоставаУведомленийПоЗадачамПроцесса</InformationRegister>
+			<InformationRegister>TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

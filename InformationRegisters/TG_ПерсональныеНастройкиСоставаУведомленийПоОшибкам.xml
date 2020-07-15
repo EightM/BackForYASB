@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
-	<InformationRegister uuid="3c2dc517-5638-497d-9c81-129112aeb536">
+	<InformationRegister uuid="580b1287-25b9-420a-a5a7-583dc7fde19d">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.TG_ПерсональныеНастройкиУведомленийВTelegram" category="Record">
-				<xr:TypeId>721996e4-0547-41c6-9ab8-502d212d450e</xr:TypeId>
-				<xr:ValueId>6ac62039-c922-4bbb-ac95-169c6b809084</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам" category="Record">
+				<xr:TypeId>ce5cdd86-f267-4c6a-a004-d6a195f74699</xr:TypeId>
+				<xr:ValueId>6a4455a0-e7d1-48a0-b3ba-a44e2a1b28eb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.TG_ПерсональныеНастройкиУведомленийВTelegram" category="Manager">
-				<xr:TypeId>25d51fe8-57bf-4831-bbcf-de0aa6f89c1a</xr:TypeId>
-				<xr:ValueId>32a6ee77-786d-4d2f-a89b-a01ff6576bb6</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам" category="Manager">
+				<xr:TypeId>84e987d9-4080-4d6c-b35b-62b165bf26dd</xr:TypeId>
+				<xr:ValueId>130a1c9d-fc88-47b9-8a71-e7a46a305c6e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.TG_ПерсональныеНастройкиУведомленийВTelegram" category="Selection">
-				<xr:TypeId>6f7338ec-e624-4d3d-a26b-45e2c15f3a68</xr:TypeId>
-				<xr:ValueId>072fe0d9-662a-4237-9854-043be4d3aa8a</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам" category="Selection">
+				<xr:TypeId>8cc0004a-51af-4a68-9399-6cb377ec2ce6</xr:TypeId>
+				<xr:ValueId>1836d19e-cd01-4199-bbcc-21cb5b9cb95d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.TG_ПерсональныеНастройкиУведомленийВTelegram" category="List">
-				<xr:TypeId>ed0fb0e7-4240-496f-bf0f-491d9b47b524</xr:TypeId>
-				<xr:ValueId>8aa7a7ec-bdd4-47b4-b811-6bcc6a2038bb</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам" category="List">
+				<xr:TypeId>361fa355-542e-410e-b904-5f9b15db0e3c</xr:TypeId>
+				<xr:ValueId>d08c4b70-8a6b-4d9e-ae84-8c0d960f5ec6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.TG_ПерсональныеНастройкиУведомленийВTelegram" category="RecordSet">
-				<xr:TypeId>adde0ac7-f6ee-4106-8aa4-41bd29a99db1</xr:TypeId>
-				<xr:ValueId>eaebd8b0-935c-4168-87a1-b4e3d6d14b05</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам" category="RecordSet">
+				<xr:TypeId>8b537057-52f7-415f-ad87-5ea6aa420885</xr:TypeId>
+				<xr:ValueId>0d7acc62-e6dc-40b1-b72a-230b156a80b5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.TG_ПерсональныеНастройкиУведомленийВTelegram" category="RecordKey">
-				<xr:TypeId>c408d22e-1cd3-4dd6-bc28-eccea1eadf83</xr:TypeId>
-				<xr:ValueId>3551cf95-a6c3-4d13-a832-cb73942049d1</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам" category="RecordKey">
+				<xr:TypeId>0c5b6805-0a03-4cdb-8a2c-b15375b08ad0</xr:TypeId>
+				<xr:ValueId>038c56e5-11d0-4c11-ac0b-1d58cd301adb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.TG_ПерсональныеНастройкиУведомленийВTelegram" category="RecordManager">
-				<xr:TypeId>ced71245-d103-4091-870a-48b4103b29bb</xr:TypeId>
-				<xr:ValueId>fdc054eb-43cc-41c3-955d-6f4835c4402e</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам" category="RecordManager">
+				<xr:TypeId>3ad7e707-30de-4bd2-b12e-8164dde0926b</xr:TypeId>
+				<xr:ValueId>126496da-ac0c-428a-9f84-51b92c8fe953</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>TG_ПерсональныеНастройкиУведомленийВTelegram</Name>
+			<Name>TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Персональные настройки уведомлений в Telegram</v8:content>
+					<v8:content>Персональные настройки состава уведомлений по ошибкам</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>false</UseStandardCommands>
+			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm>InformationRegister.TG_ПерсональныеНастройкиУведомленийВTelegram.Form.ФормаЗаписи</DefaultRecordForm>
-			<DefaultListForm>InformationRegister.TG_ПерсональныеНастройкиУведомленийВTelegram.Form.ФормаСписка</DefaultListForm>
+			<DefaultRecordForm>InformationRegister.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам.Form.ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm>InformationRegister.TG_ПерсональныеНастройкиСоставаУведомленийПоОшибкам.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
@@ -62,13 +62,13 @@
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="80258847-c91b-4eb4-86e0-9a6e7acce460">
+			<Resource uuid="e5a28ca2-4565-4245-80d0-9c7ad21d4a4f">
 				<Properties>
-					<Name>УведомлятьВTelegramОНаправленииЗадачИсполнителю</Name>
+					<Name>ВключатьВСостав</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Уведомлять в telegram о направлении задач исполнителю</v8:content>
+							<v8:content>Включать в состав</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -101,57 +101,60 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Resource uuid="420c21c4-a6b3-4394-94f0-2499af4a9bc6">
+			<Dimension uuid="4e4a52e3-3061-43c7-823c-83a09cf634c7">
 				<Properties>
-					<Name>УведомлятьВTelegramОНаправленииОшибки</Name>
+					<Name>Сотрудник</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Уведомлять в telegram о направлении ошибки</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Resource>
-			<Dimension uuid="53ccadb9-af69-4531-8e6d-f96f3b88b8c6">
-				<Properties>
-					<Name>Пользователь</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Пользователь</v8:content>
+							<v8:content>Сотрудник</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6d5613ff-4d11-4878-8699-979b4771ee46">
+				<Properties>
+					<Name>РеквизитОбъекта</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизит объекта</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.TG_СоставОсновныхПолейОшибки</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
