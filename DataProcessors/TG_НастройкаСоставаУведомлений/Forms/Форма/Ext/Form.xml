@@ -115,6 +115,7 @@
 						</v8:item>
 					</Title>
 					<Type>
+						<v8:Type>cfg:EnumRef.TG_СоставОсновныхПолейОшибки</v8:Type>
 						<v8:Type>cfg:EnumRef.TG_СоставОсновныхПолейЗадачиПроцесса</v8:Type>
 					</Type>
 				</Column>
