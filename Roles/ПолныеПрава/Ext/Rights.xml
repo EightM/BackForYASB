@@ -3,11 +3,4 @@
 	<setForNewObjects>true</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
-	<object>
-		<name>HTTPService.TG_СервисОповещений.URLTemplate.РегистрацияСотрудника.Method.РегистрацияIDСотрудника</name>
-		<right>
-			<name>Use</name>
-			<value>false</value>
-		</right>
-	</object>
 </Rights>
